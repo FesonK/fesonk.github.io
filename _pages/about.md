@@ -20,7 +20,7 @@ layout: splash
         <a class="minimal-hero__link" href="https://github.com/fesonk" target="_blank" rel="noopener">GitHub</a>
         <a class="minimal-hero__link" href="{{ '/cv/' | relative_url }}">CV</a>
       </nav>
-      <p class="minimal-note" style="margin-top:.5rem;">Based in Backville.</p>
+      <p class="minimal-note" style="margin-top:.5rem;">Based in Rockville.</p>
     </header>
 
     <section class="minimal-grid" aria-label="Focus areas and highlights">
