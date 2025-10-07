@@ -51,6 +51,23 @@ $sidebar-link-max-width     : 250px;
 
 
 
+// Modern, scientific typeface stack
+$serif-font: 'EB Garamond', 'Crimson Text', Georgia, serif;
+$sans-font: 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+$mono-font: 'JetBrains Mono', 'Fira Code', monospace;
+
+// Type scale (Major Third - 1.25)
+$type-scale: (
+  'display': 3.815rem,   // 61px
+  'h1': 3.052rem,        // 49px
+  'h2': 2.441rem,        // 39px
+  'h3': 1.953rem,        // 31px
+  'h4': 1.563rem,        // 25px
+  'body': 1.125rem,      // 18px
+  'small': 0.9rem        // 14px
+);
+
+
 /*
    Colors
    ========================================================================== */
@@ -62,13 +79,17 @@ $light-gray                 : mix(#fff, $gray, 50%);
 $lighter-gray               : mix(#fff, $gray, 90%);
 
 $body-color                 : #fff;
+$background                 : #FAFAFA;
+$accent                     : #0066FF;
+$muted                      : #6B7280;
+$code-bg                    : #F3F4F6;
 $background-color           : #fff;
 $code-background-color      : #fafafa;
 $code-background-color-dark : $light-gray;
 $text-color                 : $dark-gray;
 $border-color               : $lighter-gray;
 
-$primary-color              : #7a8288;
+$primary-color              : #0A0A0A;
 $success-color              : #62c462;
 $warning-color              : #f89406;
 $danger-color               : #ee5f5b;
